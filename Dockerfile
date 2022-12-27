@@ -32,4 +32,6 @@ RUN adduser -D heroku; \
     chmod +x /opt/docker/init.sh
 #USER heroku
 
+EXPOSE 8080
+
 CMD ["/opt/docker/init.sh"]
